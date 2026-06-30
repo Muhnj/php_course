@@ -17,7 +17,7 @@ while($counter<=10){
 
 /*
 DO while Loop
-*/
+
 
 $counter = 1;
 
@@ -26,5 +26,13 @@ do {
 	$counter++;
 } while ($counter<=10)
 
+*/
 
+
+/*
+For loop
+*/
+for ($count =10 ; $count>=1; $count--){
+	echo $count. '<br>';
+}
 ?>
