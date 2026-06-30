@@ -1,3 +1,5 @@
 <?php
-	echo "<input type=\"text\" name=\"name\" value=\"Alex\">";
+	$text = 'Hello World.';
 ?>
+
+<input type= "text" value="<?php echo $text; ?>">
