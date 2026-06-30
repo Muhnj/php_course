@@ -1,5 +1,6 @@
 <?php
-	if(0){
+$text = 'something';
+	if($text == "somethings" ){
 		echo 'TRUE.';
 	}
 	else{
