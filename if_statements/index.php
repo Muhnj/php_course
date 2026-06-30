@@ -10,7 +10,7 @@
 	*/
 
 
-$number = 12;
+$number = 13;
 if ($number ==10) {
 	echo 'Equal to ten.';
 } else if ($number ==11){
