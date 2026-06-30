@@ -1,3 +1,3 @@
 <?php
-print("<strong>  from PHP! </strong>");
+	echo "<input type=\"text\" name=\"name\" value=\"Alex\">";
 ?>
