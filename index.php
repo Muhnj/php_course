@@ -14,5 +14,13 @@ echo $number;
 echo  $bool;
 
 
+
+$day = 'Friday';
+$date = 30;
+$month ="June";
+$year = 20;
+
+echo 'The date is'.' '.$day.' '.$date.' '.$month.' '.$year;
+
 ?>
 
