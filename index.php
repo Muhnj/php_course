@@ -20,7 +20,7 @@ $date = 30;
 $month ="June";
 $year = 20;
 
-echo 'The date is'.' '.$day.' '.$date.' '.$month.' '.$year;
+echo 'The date is <strong>'.' '.$day.' '.$date.' '.$month.' '.$year;
 
 ?>
 
