@@ -7,12 +7,36 @@ $string_word_count = str_word_count($string, 1, '&.');
 
 print_r($string_word_count);
 
-*/
+
 
 // string _shuffled .
-$string = 'This is an example string.';
+$string = 'abcdegfghjklamn27254627712565';
 $string_shuffled = str_shuffle($string);
 
-echo $string_shuffled
+$half = substr($string_shuffled, 0, strlen($string)/2);
+
+echo $half;
+
+
+//string reverse 
+$string ='how are you ';
+$string_reverse = strrev($string);
+
+echo $string_reverse;
+
+
+
+
+//comparing similarity
+*/
+
+
+$string_one = 'This is my essay . I\'m going to be talking about php.'
+;
+$string_two = 'my essay is about cats . T\'ll be talking about cats and their colours.';
+
+similar_text($string_one, $string_two, $result);
+echo ' The similarity between is , ' .$result;
+
 
 ?>
