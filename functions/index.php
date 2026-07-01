@@ -61,9 +61,9 @@ function divide ($number1, $number2){
 $sum = divide (add(10,10), add (5, 5));
 echo $sum;
 
+
+
 */
-
-
 //Global variables and Functions
 
 $user_ip = $_SERVER['REMOTE_ADDR'];
@@ -76,6 +76,8 @@ function echo_ip() {
 }
 
 echo_ip();
+
+
 
 
 ?>
