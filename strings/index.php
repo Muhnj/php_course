@@ -19,7 +19,7 @@ $string_upper = strtoupper($string);
 echo $string_upper;
 echo $string_lower;
 
-*/
+
 if (isset($_GET['user_name']) &&!empty($_GET['user_name'])){
       $user_name = $_GET['user_name'];
       $user_name_lc = strtolower($user_name);
@@ -37,3 +37,26 @@ if (isset($_GET['user_name']) &&!empty($_GET['user_name'])){
 	name: <input type = "text" name ="user_name"><br><br>
 	<input type= "submit" value="Submit">
 </form>
+
+
+
+
+*/
+
+$offset = 0;
+
+$find = 'is';
+$find_length = strlen($find);
+$string = 'This is a string, and it is an example.';
+
+while ($string_position = strpos($string, $find, $offset)) {
+	echo '<strong>'.$find.'</strong> found at  '.$string_position.'<br>';
+	$offset = $string_position + $find_length;
+
+}
+
+?>
+
+
+
+
