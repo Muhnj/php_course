@@ -62,7 +62,7 @@ echo $string_trimmed;
 
 */
 
-//Add slashes
+//Add slashes & strip slashes 
 $string = 'This is a <img src ="\image.jpg\"> string.';
 $string_slashes = htmlentities($string);
 
