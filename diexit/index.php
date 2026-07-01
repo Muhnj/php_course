@@ -1,8 +1,12 @@
 <?php
- echo 'Hello'
+ 
 
- die();
+ echo 'Hello';
+
+ die ('ERROR. PAGE HAS ENDED.');
+
  echo 'World';
+
 ?>
 
 
