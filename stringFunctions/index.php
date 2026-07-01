@@ -28,8 +28,6 @@ echo $string_reverse;
 
 
 //comparing similarity
-*/
-
 
 $string_one = 'This is my essay . I\'m going to be talking about php.'
 ;
@@ -39,4 +37,35 @@ similar_text($string_one, $string_two, $result);
 echo ' The similarity between is , ' .$result;
 
 
+//string Length
+
+$string = 'this is an example string.';
+$string_length = strlen($string);
+
+echo $string_length;
+
+
+/*
+use cases 
+if (string_length<25) {
+
+} else {
+
+}
+
+//Trim Functions   l and r
+
+$string = 'This is an example string.s';
+$string_trimmed = rtrim($string);
+
+echo $string_trimmed;
+
+*/
+
+//Add slashes
+$string = 'This is a <img src ="\image.jpg\"> string.';
+$string_slashes = htmlentities($string);
+
+echo addslashes($string_slashes);
+echo stripslashes($string_slashes);
 ?>
